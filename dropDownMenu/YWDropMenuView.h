@@ -2,8 +2,8 @@
 //  YWDropMenuView.h
 //  dropDownMenu
 //
-//  Created by CaiMao－yyw on 16/5/27.
-//  Copyright © 2016年 CaiMao－yyw. All rights reserved.
+//  Created by yanyuewen on 16/5/27.
+//  Copyright © 2016年 yanyuewen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
