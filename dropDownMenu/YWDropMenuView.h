@@ -81,7 +81,7 @@
 @property (nonatomic, weak) id<YWDropMenuViewDelegate> delegate;
 @property (nonatomic, weak) id<YWDropMenuViewDatasource> dataSource;
 
-@property (nonatomic, strong) UIColor *indicatorColor;
+@property (nonatomic, strong) UIColor *indicatorColor;  ///< 标题右侧三角颜色
 @property (nonatomic, strong) UIColor *textColor;      ///< 字体颜色
 @property (nonatomic, strong) UIColor *separatorColor;   ///< 分割线颜色
 
