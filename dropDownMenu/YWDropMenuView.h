@@ -14,17 +14,6 @@
 @property (nonatomic, assign) NSInteger column;   ///< 组
 @property (nonatomic, assign) NSInteger row;      ///< 行
 
-/**
- *  初始化组和行
- *
- *  @param column 组
- *  @param row    行
- *
- *  @return   YWIndexPath
- */
-- (instancetype)initWithColumn:(NSInteger)column row:(NSInteger)row;
-+ (instancetype)indexPathWithColumn:(NSInteger)col row:(NSInteger)row; // 同上
-
 @end
 
 
