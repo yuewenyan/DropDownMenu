@@ -15,6 +15,19 @@
 #define textFont     [UIFont systemFontOfSize:strFontSize]
 #pragma mark --  自定义 YWIndexPath
 
+@interface YWIndexPath ()
+/**
+ *  初始化组和行
+ *
+ *  @param column 组
+ *  @param row    行
+ *
+ *  @return   YWIndexPath
+ */
+- (instancetype)initWithColumn:(NSInteger)column row:(NSInteger)row;
++ (instancetype)indexPathWithColumn:(NSInteger)col row:(NSInteger)row; // 同上
+@end
+
 @implementation YWIndexPath
 
 - (instancetype)initWithColumn:(NSInteger)column row:(NSInteger)row {
